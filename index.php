@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<title>Exemplo PHP</title>
+<title>Desafio Dio 3</title>
 </head>
 <body>
 
@@ -13,10 +13,10 @@ header('Content-Type: text/html; charset=iso-8859-1');
 
 echo 'Versao Atual do PHP: ' . phpversion() . '<br>';
 
-$servername = "54.234.153.24";
-$username = "root";
-$password = "Senha123";
-$database = "meubanco";
+$servername = "192.168.100.33";
+$username = "user";
+$password = "p@$$w0rd";
+$database = "bancao";
 
 // Criar conexão
 
